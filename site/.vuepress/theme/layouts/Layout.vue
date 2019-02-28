@@ -2,6 +2,8 @@
     <div>
         <Navbar/>
         <Container></Container> 
+        <!-- <Content></Content> -->
+        <Footer></Footer>
     </div>
 </template>
 
@@ -11,6 +13,7 @@
 // import '../../public/js/parallax.min.js'
 import Navbar from '../components/Nav/Navbar.vue'
 import Container from '../components/Container/Container.vue'
+import Footer from '../components/Footer/Footer.vue'
 
 // $(document).ready(function(){
 
@@ -19,8 +22,7 @@ import Container from '../components/Container/Container.vue'
 // });
 
     export default {
-        
-        components: { Navbar, Container },
+        components: { Navbar, Container, Footer },
     }
 </script>
 
